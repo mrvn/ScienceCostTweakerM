@@ -31,13 +31,13 @@ for index, force in pairs(game.forces) do
 	end
 		
 	if force.technologies["military-2"] and force.technologies["military-2"].researched then
-		for prereq,_obj in pairs(force.technologies["sct-research-mil"].prerequisites) do
+		for prereq,_obj in pairs(force.technologies["sct-military-science-pack"].prerequisites) do
 			if prereq == "sct-research-t2" and force.technologies["sct-research-t2"] and force.technologies["sct-research-t2"].researched then
-				force.technologies["sct-research-mil"].researched = true
+				force.technologies["sct-military-science-pack"].researched = true
 				break
 			end
 			if prereq == "sct-research-t3" and force.technologies["sct-research-t3"] and force.technologies["sct-research-t3"].researched then
-				force.technologies["sct-research-mil"].researched = true
+				force.technologies["sct-military-science-pack"].researched = true
 				break
 			end
 		end
@@ -91,7 +91,7 @@ for index, force in pairs(game.forces) do
 		-- vanilla continue
 		"sct-lab-t3",
 		"sct-research-t3",
-		"sct-research-mil",
+		"sct-military-science-pack",
 		"sct-research-prod",
 		"sct-lab-t4",
 		"sct-research-t4",

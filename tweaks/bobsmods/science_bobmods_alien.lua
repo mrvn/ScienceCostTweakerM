@@ -34,7 +34,7 @@ data:extend({
 		{
 			"advanced-research",
 			"sct-research-t3",
-			"sct-research-mil",
+			"sct-military-science-pack",
 		},
 		unit =
 		{
@@ -69,7 +69,7 @@ data:extend({
 		prerequisites =
 		{
 			"sct-research-t3",
-			"sct-research-mil",
+			"sct-military-science-pack",
 		},
 		unit =
 		{

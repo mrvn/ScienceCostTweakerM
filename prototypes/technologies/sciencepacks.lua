@@ -334,10 +334,10 @@ data:extend({
 
 -- military tech dependencies, based on settings
 if settings.startup["sct-military"].value == "tier2" then
-	sctm.tech_dependency_add("sct-research-mil", "automation-science-pack")
+	sctm.tech_dependency_add("sct-military-science-pack", "automation-science-pack")
 else
-	sctm.tech_dependency_add("sct-research-mil", "chemical-science-pack")
-	sctm.tech_pack_add("sct-research-mil", {"chemical-science-pack",1})
-	data.raw.technology["sct-research-mil"].unit.time = 4
-	data.raw.technology["sct-research-mil"].unit.count = 90
+	sctm.tech_dependency_add("sct-military-science-pack", "chemical-science-pack")
+	sctm.tech_pack_add("sct-military-science-pack", {"chemical-science-pack",1})
+	data.raw.technology["sct-military-science-pack"].unit.time = 4
+	data.raw.technology["sct-military-science-pack"].unit.count = 90
 end
