@@ -93,7 +93,7 @@ data:extend({
 			enabled = false,
 			ingredients = 
 			{
-				{"fast-inserter", 5},
+				{"long-handed-inserter", 5},
 				{"electronic-circuit", 30},
 			},
 			result = "sct-lab2-automatization",
@@ -104,7 +104,7 @@ data:extend({
 			enabled = false,
 			ingredients = 
 			{
-				{"fast-inserter", 2},
+				{"long-handed-inserter", 2},
 				{"electronic-circuit", 10},
 			},
 			result = "sct-lab2-automatization",
